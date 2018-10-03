@@ -26,7 +26,7 @@ For each test case, output one line containing Case #x: y, where x is the number
 
 Small dataset
 
-1 ≤ **N** ≤ 50 
+1 ≤ **N** ≤ 50
 
 1 ≤ **Ai** ≤ 500, for all i.
 
@@ -51,8 +51,8 @@ Large dataset
 ## Sample
 
 ```
-Input 
- 	
+Input
+
 2
 4
 15 25 30 35 45 50 10 20
@@ -69,8 +69,8 @@ Input
 ```
 
 ```
-Output 
- 
+Output
+
 Case #1: 2 1
 Case #2: 3 3 4
 ```
