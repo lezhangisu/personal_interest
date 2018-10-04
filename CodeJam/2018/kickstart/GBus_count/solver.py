@@ -6,6 +6,7 @@
 
 import sys
 
+
 def getContent(path):
     ret = []
     content_file = open(path, 'r')
@@ -17,6 +18,7 @@ def getContent(path):
            line = fp.readline()
     return ret
 
+
 def parseQuestion(content):
     numBuses = int(content[0])
     busList = map(int, content[1].split())
@@ -26,6 +28,7 @@ def parseQuestion(content):
         cityList.append(int(content[3+n]))
 
     return numBuses, busList, cityList
+
 
 def countSrvBus(busList, city):
     bl = list(busList)
